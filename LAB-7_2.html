@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=<device-width>, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+        table{
+            border: 10px double black;
+        }
+    </style>
+<body>
+    <form>
+        <center>
+        <table>
+            <tr bgcolor="PaleTurquoise">
+            <td colspan="3" align="center"><p><strong><font size="15" color="red">Заповнення товару</font></strong></p></td>
+        </tr>
+        <tr>
+            <tr bgcolor="PaleTurquoise">
+            <td><p>1</p></td>
+            <td><p>Номер банківського рахунку</p></td>
+            <td><p><input label for="Bank account"></p></td>
+        </tr>
+         <tr>
+            <tr bgcolor="PaleTurquoise">
+            <td><p>2</p></td>
+            <td><p>Особистий номер користувача</p></td>
+            <td><p><input label for="number"></p></td>
+        </tr>
+        <tr>
+            <tr bgcolor="PaleTurquoise">
+            <td><p>3</p></td>
+            <td><p>Обрати товар</p></td>
+            <td><p><select name="tovar" size="1"></p>
+                        <option value="1">ковдра</option>
+                        <option value="2">простирадло</option>
+                        <option value="3">подушка</option>
+                        <option value="4">плед</option>
+                        <option value="5">підковдрар </option>
+            </select>
+        </td>
+        </tr>
+        <tr>
+            <tr bgcolor="PaleTurquoise">
+            <td><p>4</p></td>
+            <td><p>Коментар</p></td>
+            <td><textarea name="about" rows="5" cols="60" wrap="off"></textarea></td>
+        </tr>
+        <tr>
+            <tr bgcolor="PaleTurquoise">
+            <td><p>5</p></td>
+            <td><p>Вид оплати</p></td>
+            <td><input type="radio" name="payment" value="card">безготівкова<input type="radio" name="payment" value="card">картка</td>
+        </tr>
+        <tr>
+            <tr bgcolor="PaleTurquoise">
+            <td><p>6</p></td>
+            <td><p>Додаткова інформація</p></td>
+            <td><input type="checkbox" id="balance_info" name="balance_info" value="yes">
+                <label for="balance_info">Дані про залишки на рахунку</label><br>
+                <input type="checkbox" id="payment_history" name="payment_history" value="yes">
+                <label for="payment_history">Список останніх виплат по рахунку</label><br>
+                <input type="checkbox" id="electronik_chek" name="electronik_chek" value="yes">
+                <label for="electronik_chek">електронний чек</label><br><br></td>
+        </tr>
+        <tr>
+            <tr bgcolor="PaleTurquoise">
+            <td colspan="3" align="center"><p><button><a href="LAB_7_3.html">Замовити</a></button>
+                <input type="reset" value=" Відминити введення "></p></td>
+            
+        </tr>
+     </table>    
+    </form>
+</body>
+</html>
